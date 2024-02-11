@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Plus Jakarta Sans' ,sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: #1D1D1D;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #1D1D1D;
+  border-bottom: 2px solid #252525;
+}
+
+nav ul {
+  margin-left: 15%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #8B8B8B;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 35px;
+}
+
+.button {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  width: 8em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  margin-left: 50%;
+  z-index: 1;
+}
+
+.button b{
+  color: #fff;
+  font-weight: 500;
+}
+
+.button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+.button:hover::before {
+  filter: blur(20px);
+}
+
+.button:active {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
