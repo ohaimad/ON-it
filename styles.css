@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Plus Jakarta Sans' ,sans-serif;
-  /* font-weight: 800; */
 }
 
 body {
@@ -30,7 +29,6 @@ nav ul {
   padding: 10px;
   align-items: center;
   /* text-align: center; */
-
 }
 
 nav ul li {
@@ -106,7 +104,6 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh; /* Adjust as needed */
 }
 
 .Title h1{
@@ -116,13 +113,11 @@ nav ul li a:hover {
   background-clip: text;
   font-size: 90px;
   margin-top: 10%;
-  text-align: center;
 }
 
 .Title p{
   color:#BCBCBC;
   font-size: 40px;
-  text-align: center;
   font-weight: 600;
 }
 
@@ -132,18 +127,24 @@ nav ul li a:hover {
 
 .image-list {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* list-style: none; */
-  /* padding: 0; */
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; */
+  list-style: none;
+  padding: 0;
 }
 
 .image-list li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
-.image-list img {
-  width: 80px;
-  height: 80px;
+.image-list .img1 img {
+  width: 100px;
+  height: 50px;
   object-fit: cover;
+}
+
+.image-list .img2 img {
+  width: 100px;
+  height: 30px;
 }
