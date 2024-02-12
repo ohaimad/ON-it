@@ -1,7 +1,12 @@
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Plus Jakarta Sans' ,sans-serif;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 body {
@@ -13,10 +18,19 @@ body {
 nav {
   background-color: #1D1D1D;
   border-bottom: 2px solid #252525;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
-  margin-left: 15%;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  /* text-align: center; */
+
 }
 
 nav ul li {
@@ -48,13 +62,7 @@ nav ul li a:hover {
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   background-size: 300%;
   border-radius: 30px;
-  margin-left: 50%;
   z-index: 1;
-}
-
-.button b{
-  color: #fff;
-  font-weight: 500;
 }
 
 .button:hover {
@@ -92,4 +100,38 @@ nav ul li a:hover {
 
 .button:active {
   background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+.Title h1{
+  background: linear-gradient(90deg, #359aff, #EF69A8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 90px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.Title p{
+  color:#BCBCBC;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.button a {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  width: 8em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  /* background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4); */
+  background-size: 300%;
+  border-radius: 30px;
+  /* margin-left: 50%; */
+  /* z-index: 1; */
 }
