@@ -28,7 +28,6 @@ nav ul {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
-  /* text-align: center; */
 }
 
 nav ul li {
@@ -127,9 +126,6 @@ nav ul li a:hover {
 
 .image-list {
   display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px; */
   list-style: none;
   padding: 0;
 }
@@ -146,5 +142,69 @@ nav ul li a:hover {
 
 .image-list .img2 img {
   width: 100px;
-  height: 30px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.bar{
+  color: #9C9C9C;
+  border: 1px solid #9C9C9C;
+  background-color: #262626;
+  border-radius: 35px;
+  padding: 10px 20px;
+}
+
+.Learn{
+  background: linear-gradient(90deg, #4EC69A, #87B6F4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.images-body {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.images-body li {
+  margin: 30px;
+  overflow: hidden;
+  /* padding: 60px; */
+}
+
+.images-body .img3 img {
+  width: 450px;
+  height: 300px;
+  border-radius: 35px; 
+}
+
+.images-body .img4 img {
+  width: 450px;
+  height: 300px;
+  border-radius: 35px; 
+}
+
+.images-body .img5 img {
+  width: 450px;
+  height: 300px;
+  border-radius: 35px; 
+}
+
+.images-body .img6 img {
+  width: 450px;
+  height: 300px;
+  border-radius: 35px; 
+}
+
+.images-body .img7 img {
+  width: 450px;
+  height: 300px;
+  border-radius: 35px; 
+}
+
+.images-body .img8 {
+  width: 450px;
+  height: 300px;
+  border-radius: 35px; 
+  background-color: red;
 }
