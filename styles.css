@@ -205,6 +205,22 @@ nav ul li a:hover {
 .images-body .img8 {
   width: 450px;
   height: 300px;
-  border-radius: 35px; 
-  background-color: red;
+  text-align: center;
+  color: #EEEEEE;
+  display: flex;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.text1{
+  border-radius: 25px;
+  background-color: #262626;
+  padding: 3.5rem;
+}
+
+.text{
+  border-radius: 25px;
+  background-color: #262626;
+  padding: 3.5rem;
 }
