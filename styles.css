@@ -169,13 +169,17 @@ nav ul li a:hover {
 .images-body li {
   margin: 30px;
   overflow: hidden;
-  /* padding: 60px; */
 }
 
 .images-body .img3 img {
   width: 450px;
   height: 300px;
   border-radius: 35px; 
+}
+
+.images-body .text-img{
+  color: #EEEEEE;
+  
 }
 
 .images-body .img4 img {
