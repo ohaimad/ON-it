@@ -178,8 +178,11 @@ nav ul li a:hover {
 }
 
 .images-body .text-img{
-  color: #EEEEEE;
-  
+  color: #ABABAB;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 1rem;
 }
 
 .images-body .img4 img {
